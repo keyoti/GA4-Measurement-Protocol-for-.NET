@@ -56,6 +56,7 @@ namespace Keyoti.GA4
                 NullValueHandling = NullValueHandling.Ignore
             });
             await eventSender.SendAsync(MeasurementId, ApiSecret, payload);
+            Events.Clear();
             return true;
         }
     }
