@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/TestProject1
+/.vs
+/GA4-Measurement-Protocol-.NET/obj
+/GA4-Measurement-Protocol-.NET/bin/Debug
+/GA4-Measurement-Protocol-.NET/.vs
