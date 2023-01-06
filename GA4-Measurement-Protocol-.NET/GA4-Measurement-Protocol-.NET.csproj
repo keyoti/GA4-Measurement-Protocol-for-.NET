@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Keyoti.GA4</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>GA4 Measurement Protocol Sender</Title>
+    <Company>Keyoti Inc.</Company>
+    <Description>An early implementation of a data sender for Google Analytics GA4 Measurement Protocol.</Description>
+    <Copyright>2023</Copyright>
+    <PackageProjectUrl>https://github.com/keyoti/GA4-Measurement-Protocol-for-.NET</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/keyoti/GA4-Measurement-Protocol-for-.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>GA4-Measurement-Protocol-NET</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GA4-Measurement-Protocol-.NET", "GA4-Measurement-Protocol-.NET.csproj", "{7505EA25-A135-4769-8F17-EDAA22C041C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "..\TestProject1\TestProject1.csproj", "{F4DE86F1-3798-4ED6-BA3D-370D38C5EEB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7505EA25-A135-4769-8F17-EDAA22C041C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7505EA25-A135-4769-8F17-EDAA22C041C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7505EA25-A135-4769-8F17-EDAA22C041C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7505EA25-A135-4769-8F17-EDAA22C041C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DE86F1-3798-4ED6-BA3D-370D38C5EEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DE86F1-3798-4ED6-BA3D-370D38C5EEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DE86F1-3798-4ED6-BA3D-370D38C5EEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DE86F1-3798-4ED6-BA3D-370D38C5EEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9DC8B24-5F4E-47DB-9BC8-FB31E4803F53}
+	EndGlobalSection
+EndGlobal
